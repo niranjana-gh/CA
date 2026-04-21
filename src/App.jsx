@@ -3,7 +3,7 @@ import MovieList from "./components/MovieList.jsx";
 import MovieStats from "./components/MovieStats";
 import "./App.css";
 import AppRouter from "./routers/AppRouter.jsx";
-import { MovieProvider } from "./context/MovieContext.jsx";
+import { MovieProvider } from "./context/AppContext.jsx";
 
 const App = () => {
   return (

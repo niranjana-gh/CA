@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { MovieContext } from "../context/MovieContext";
+import { MovieContext } from "../context/AppContext";
 import { v4 as uuidv4 } from "uuid";
 import Favorites from "./Favorites";
 

@@ -1,4 +1,4 @@
-import { useMovie } from "../context/MovieContext";
+import { useMovie } from "../context/AppContext";
 
 import MovieCard from "./MovieCard";
 

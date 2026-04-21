@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useMovie } from "../context/MovieContext";
+import { useMovie } from "../context/AppContext";
 
 const MovieStats = () => {
   const { movies } = useMovie();
